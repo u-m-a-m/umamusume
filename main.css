@@ -16,7 +16,7 @@ header {
 .msr_bread04 li a:hover {
   text-decoration: underline;
 }
-
+/*
 .msr_bread04 li:after {
   background-color: #000000;
   box-sizing: border-box;
@@ -37,7 +37,7 @@ header {
   -ms-transform: rotate(40deg);
   transform: rotate(40deg);
 }
-
+*/
 .msr_bread04 li:last-child:after {
   display: none;
 }
