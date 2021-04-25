@@ -8,3 +8,7 @@ header {
     color: #fff;
     text-shadow: #000 0 0 .2em;
 }
+
+a.noline {
+    text-decoration: none
+}
