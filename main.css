@@ -1,5 +1,5 @@
 @charset 
-header.header { 
+header { 
     background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
     display: flex;
     height: 120px;
