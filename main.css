@@ -9,6 +9,7 @@ header {
     text-shadow: #000 0 0 .2em;
 }
 
-a.noline {
-    text-decoration: none
+a {
+    text-decoration: none;
+    color: gray;
 }
