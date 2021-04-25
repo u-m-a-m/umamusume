@@ -1,43 +1,10 @@
 @charset 
-header.header {
-  background-color:#f0f8ff ;
-}
-
-.msr_bread04 li {
-  float: left;
-  font-size: 13px;
-}
-
-.msr_bread04 li a {
-  color: #000000;
-  text-decoration: none;
-}
-
-.msr_bread04 li a:hover {
-  text-decoration: underline;
-}
-/*
-.msr_bread04 li:after {
-  background-color: #000000;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  content: "";
-  display: inline-block;
- *display:inline;
- *zoom:1;
-  height: 6px;
-  margin: 0 10px;
-  vertical-align: middle;
-  width: 2px;
-  height: 15px;
-  -webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
-  -o-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
-  transform: rotate(40deg);
-}
-*/
-.msr_bread04 li:last-child:after {
-  display: none;
+header.header { 
+    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
 }
