@@ -1,23 +1,52 @@
-@charset 
-.page-header { 
-    background-color:#b0c4de;
-    display: flex;
-    height: 120px;
-    min-width: 120px;
-    align-items: center;
-    color: #fff;
-    text-shadow: #000 0 0 .2em;
+@charset
+
+a:hover {
+  color: skyblue;
+  list-style: none;
 }
 
-.menu {
-  list-style: none;
-  display: inline-block;
-  text-decoration: none;
-  color: gray;
+/**********headerstart**********/
+header {
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #dbebff;
+  align-items: center;
+  position: fixed;
 }
 
 .main-logo {
-    font-size: 24px;
-    font-color: #ff1493;
-    margin-right: auto;
+  text-shadow: #000 0 0 .2em;
+  font-size: 32px;
+  font-color: #ff1493;
+  display: inline;
+  margin-right: auto;
 }
+
+.menu {
+  display: inline-block;
+  text-align: right;
+}
+
+header li a {
+  color: gray;
+  text-decoration: none;
+}
+/**********headerend**********/
+
+.news {
+
+  color: brown;
+}
+
+
+/**********footerstart**********/
+footer {
+  margin: 30px 0px 0px;
+  background-color: #dbebff;
+  padding:5px 5px;
+  font-size: 12px;
+  color: darkgray;
+}
+/**********footerend**********/
